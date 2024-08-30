@@ -1,0 +1,11 @@
+
+JDK = JRE + DEV.TOOLS
+JRE = JVM  + lib
+
+JVM ke karan platform ind as yeh byte code hota jo milta by java compiler
+and use ab JVM, OS se directly intercat krta and resources le leta
+
+programm execution me byte code pehle loading(in text segment) 
+then linking(given memory in stack and heap) 
+then interpretor (jit compiler)
+
