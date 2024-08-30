@@ -1,0 +1,22 @@
+
+procedural programming is less secure as lifetime is very high
+arr ko print krne pe uska address nhi milta uska hashcode milta
+
+data members should be private for securoty and member func are public
+memory allocated at time of creation of objects not class declaration vo bas text
+ki tarah pada code 
+
+Java is always pass by value
+
+func can also return an object
+
+method is vo func jinhe access krne ke liye unka obj banaya jae
+so jinke age static hai vo func hai keval.
+
+pure oopl is which has everything has class or obj
+but java isnt as isme primitove variables bhi hai
+and iska solution Java ne hume wrapper class banake diya
+as primitive me null nhi store.
+it also gives as autoboxing and unboxing
+
+
