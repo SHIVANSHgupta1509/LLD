@@ -1,0 +1,18 @@
+
+obj banate hue hum constr func ko hi call kr rhe
+iska explicit return type kuch nhi hota, and iska name same as class
+and always public as bahar se call hogi
+
+constructor ka explicit koi return type nhi but by default this return ho rha
+
+hmara code hmesha us class se execution start krta jo file ka name 
+and usme vo main func dondhta public static void main(String [] args) vala
+String [] args hota jo hmara terminal me dete hum command after -m in commit
+
+overloading is same name ke functions ek sath
+
+char cant store -ve so isliye byte cant be upcasted to it
+
+constructor chaining me hmesha this should be first line uske upr kuch nhi 
+as usse obj ban rha so vo to upr hi vrna tum uske child ko access krne lgoge jo hai nhi
+also this() cant be called from any other function leave constructor as obj bna hi nhi

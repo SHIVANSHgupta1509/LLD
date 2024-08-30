@@ -6,6 +6,38 @@ class Movie{
     private double rating;
     private String genre;
     private int duration;
+    StringBuilder copy = new StringBuilder("copy");
+   
+   // explicit default constructor
+   // public Movie(){}
+
+   // non-parametrised constructor
+   public Movie(){
+     this.name = "UnLabelled";
+     this.rating = 0.0;
+     this.genre = "UnClassified";
+     this.duration = 0;
+   }
+
+   // parametrised constructor
+   public Movie(String name, double rating, String genre, int duration){
+    setName(name);
+    setRating(rating);
+    setGenre(genre);
+    setDuration(duration);
+}
+
+  //copy constructor
+  public Movie(Movie other){
+    setName(other.getName());
+    setRating(other.getRating());
+    setGenre(other.getGenre());
+    setDuration(other.getDuration());
+    // shallow copy
+    // copy = other.copy;
+    // deep copy
+    copy = new StringBuilder(other.copy);
+   }
    
    public void setName(String name){
        // write validation logic here 
@@ -56,16 +88,8 @@ class Movie{
 }
 public class Movies {
    public static void main(String[] args) {
-   
-//    will not work in case of private 
-//    Movie m1 = new Movie();
-//    m1.name = "Maharaja";
-//    m1.rating = 5.0;
-//    m1.genre = "Revenge";
-//    m1.duration = 130;
-       
-//     System.out.println(m1.name + m1.rating + m1.genre + m1.duration);
-       
+    
+       // lengthy not good
        Movie m2 = new Movie();
        m2.setName("Dracula Sir");
        m2.setRating(5.0);
@@ -73,18 +97,13 @@ public class Movies {
        m2.setDuration(140);
        System.out.println(m2.getName() + m2.getRating() + m2.getGenre() + m2.getDuration());
        
-       Movie m3 = new Movie();
-       m3.setName("Parking");
-       m3.setRating(5.0);
-       m3.setGenre("Thriller");
-       m3.setDuration(120);
+       // better
+       Movie m3 = new Movie("Parking",5.0,"Thriller",120);
        System.out.println(m3.getName() + m3.getRating() + m3.getGenre() + m3.getDuration());
        
-       Movie m4 = m2.combineGenre(m3);
-       m4.setName("Ratsassan");
-       m4.setRating(5.0);
-       m4.setDuration(150);
-       System.out.println(m4.getName() + m4.getRating() + m4.getGenre() + m4.getDuration());
-       
+       // shallow, deep copy
+       Movie m4 = new Movie(m3);
+       m4.copy.append("shallow");
+       System.out.println(m4.copy + "," + m3.copy);  
    }
 }
