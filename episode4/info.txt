@@ -1,0 +1,43 @@
+
+static variables ko class bnte wakt hi mem mil jat, usse pehle kuch static block hota 
+vo chlta.
+they dont have to have an obj to be accessed
+
+memory effici is achieved via static data members
+and is good ki hume obj banna hi nhi pada jaise Integer.MAX_VALUE ke liye obj nhi
+yeh static hoga so dir accessable.
+static is lifetime high and security issues 
+also not thread safe 
+
+pr agr private rkho to getter likhna hoga, also agr private kroge to getter ko static 
+kro tab hi access.
+
+static method can only access other static methods and other static data members as
+socho na agr static nhi hai koi data member means vo kisi obj se associated hoga 
+and abhi mujhe pta hi nhi obj bana ya nhi ya obj konsa hai.
+as hum bina obj ke bhi call ho skte
+
+agr krna hi hai static valo ke andr access to tum uske andr obj bana skte ho 
+but uska koi relevance nhi hai.
+
+constructors are not sttaic as they are called when an obj is made, or is obj property
+but static is calss property
+
+nested classes are used for strongly coupled classes means ki outer  class ka 
+obj banae bina inner class ka obj bnega hi nhi, used only in some cases.
+
+pr agr static banate inner class so hum inner class ka bana skte obj using 
+only outer class
+
+static block loading ke time hi chl jata (linking se bi pehle), programm run krne
+pe sbse pehle.
+
+agr hume public class rkhni to same name hona chaie class and file ka 
+that means ek hi public class ho skti at max, also agr hum public class likh 
+rhe so that is entry point for jvm, aur classes bhi hogi and unhe bhi run kr skte
+
+also jab code compile krte ho to jitni classes hai utni hi aur .class file bnti
+as socho src code to sara ek file me likh diya but ab compile to alg hoga
+
+ek hi public class as jvm takes public as entry point so multiple public
+to kaise vo entry pt dekhega
