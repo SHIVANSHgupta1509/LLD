@@ -1,0 +1,12 @@
+import java.util.* 
+isme java is a package (folder) and ab isme util folder hai and * is uski sari 
+files import krlo
+
+java.lang by default milti hi as itni common
+
+src code khi bhi rkhlo(java file) but .class file should be in same folder jiska package hai
+
+javac -d . filepath 
+isse sari files compile ek sath
+
+kisi static ko import to use static keyword
