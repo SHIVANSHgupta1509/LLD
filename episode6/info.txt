@@ -1,0 +1,59 @@
+
+jab Child ka banate ho obj to usme memory parent vali lg jati as vo data member bhu ate
+parent ke private child ko access nhi honge.
+
+hashcode can repeat in objects agr itne jada obj bana die.
+
+simply kisi ko print ya use.toString() is same thing and isme jaise string 
+ya AL hai usme to uska content ho jata print as uski class me ise override kr rkha 
+hoga pr array me class@hashcode(inhex) hota print 
+
+yeh sare Object class methods hai and hr class by default extend krti ise so likho
+na likho is same and also pr agr child class hai to vo directly ise nhi krti
+as ek class 2 ko inherit nhi kr skti
+
+super is implicitly called and can also be used to access parent ka methods,
+data members and does constructor chaining in inheritence.
+
+agr hmare child me bhi same name ka data member hota as parent to vo sahi hai
+humari 2 mem allocate hogi, but access krne ke liye us vari ko hmesha pehle 
+us class me dekhenge then nhi mila to aprent me and agr parent ka chaie 
+to super.vari se access agr parent me nhi to uske parent me vo check krega
+
+by default empty parent constructor called.
+agr koi exy=tend nhi phir bhi super hai hi as object class ko extend kr rhi.
+agr parent ke parent ka kuch chaie jo all 3 me hai to hume apne parent se hi bolna pdega to la and 
+mai tujhse lunga, mai directly access nhi kr paunga as super.super is nothing.
+
+super se aap obj properties access kro as class ki prop to class se hi access ho ajegi
+
+polymorphism is always wrt to functions, not data members.
+compile type polymorphism simply means ki compile time pe hi pata chl jae
+ki konsa fun call hoga, jaise overloading me depe on para pata chl jata
+vo chlega to exec ke time hi.
+
+run time poly ka use in like aapne Vehicle parent banaya and child is 
+train,car,bus ab aapne ref var bna diya vehicle ka and obj banaya car, train
+ka so ab apke pas vehichle ka sab hai and car ke iye uske overrided functions
+jo ki chaie hume car ke oiye, tarin ke liye aise aise.
+
+agr parent ka ref and child ka obj so ab access is of parent data members, 
+and parent all functions but some are overridden by child func.
+
+agr child ka obj and child ka hi ref so sabka ref par+child except par private.
+agr parent ka dono so bas pare ka sab access.
+
+data mem overriding is not allowed as manlo vo private hota to kaise krte 
+access and function to private hote nhi so unka overriding hoga.
+
+child ka ref banaya and par k obj, it isnt allowed as socho parent obj banay so
+child ka const to call nhi, so child ka obj hi nhi bana ab to glt ho gya
+
+refrence var provides prototype and obj provides definitions.
+
+encapsulation sikha inheritence ke liye, inheritence sikha polymorphism ke liye,
+polymorphism sikha generic krne ke liye chige and abstraction achieve ke liye
+
+static methods cant be overriden as they are allocated memory at early binding
+at class loading only and overriding is late binding concept.
+late binding comes to picture only when ref of parent and child obj
