@@ -1,0 +1,7 @@
+
+generic class can be implemented by object class.
+java is static typr as compilantion ke time use pata hona chaie datatype
+primitive variables have no class so vo genrics parameter me nhi as unka to 
+obj ban hi nhi skta.
+
+compile pe T ka error as hume pata hi nhi ki T kya hai.
