@@ -1,9 +1,0 @@
-List<Integer> ls = new ArrayList<>(); parent -> ref, child -> obj
-
-object class topmost hoti uske niche se kr rhe.
-custom hashing krna ho to equals and hascode ko override
-as vrna hashing ho rhi on basis of address of objects ab ho rhi on your logic.
-
-AL me compare krte hue data compare hota and hashcode is overridden.
-CF has collections and also map,
-collections has 3.
