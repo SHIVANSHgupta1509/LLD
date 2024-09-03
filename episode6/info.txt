@@ -57,3 +57,37 @@ polymorphism sikha generic krne ke liye chige and abstraction achieve ke liye
 static methods cant be overriden as they are allocated memory at early binding
 at class loading only and overriding is late binding concept.
 late binding comes to picture only when ref of parent and child obj
+
+abstraction polymorphism se hi achieve hoti hai
+1 bhi method abstract to class ko abstract hi, class abstract to 0 or more 
+abstract methods.
+abstract method has no body and just prototype.
+abstract class ka menaing ki uska obj nhi bana skte hai, ref bana skte uska.
+so hum uske methods ko override krte hai.
+agr kisi abstract class ko extend kr rhe so uske sare abstract methods 
+ko override krna pdega vrna hum bhi abstract class ban jenge as socho na
+ki hmara obj bnaya to ab parent ke method ka access hona chaie tha but 
+hai nhi.
+override hua to likh skte yeh optional field.
+and obv ek class ek hi parent ko extend kregi.
+ab abstract classes ke pas constructor hai as uski child ka to obj bnega 
+so indirectly parent ka bhi obj bana and also uske pas non static datamem
+bhi hote jinka relation ahi obj se vo bhi bnte! and also this keyword.
+ek abstract class me constructor abstract nhi ho skte as by default constructor bina 
+likhe bhi super ko call krta and int vagarh ko 0, null deta
+//ly abstract methods cant be static as sattic ko override nhi kr skte 
+and override to krna hi hoga.
+abstract ka real use in generalisation and specification, usme animal ko extend
+krenge sab to unke pas aaega sab of animal and use abstarct bana lo.
+
+by default interface have alll metgod as public abstract without writing anything
+interface is 100% abstraction so no obj so no constructor.
+interfcae are not in hierarchy, it is just a contract.
+interface me so only static data by default as no obj and all.
+interface is just a contract, no this in interface.
+multiple interfcae can be implemented as no ambiquity as agr same name ke methid
+ho to dono ek sath override.
+
+inheritence aap use kro jab mulitple inheritence krna chaho
+abstraction use when you want to do generalistaion.
+interface cant be initiated, but can be implemented.
