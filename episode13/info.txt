@@ -1,0 +1,23 @@
+finally likh skte bina catch ke bhi, chlta hai
+
+exception are always runtime, errors can be runtime or compile time
+error occurs due to system resources over.
+checked/compile time exception ati to runtime pe hi but compiler compile
+nhi hone deta ki yeh exception in future a skti hai to ruk jao.
+
+checked type exception explicitly handle krni hi hogi, ya to khud kro ya 
+aur khi kro and vo bhi nhi krni to jisne call kiya hai use batao via throws and
+vo handle kre ab.
+
+throw jab humara khud ka banaya hua exception hai
+custom exception unchecked banao vrna checked banai to vha pr hi handle 
+krni pdti exceptions.
+
+by default exception bola to vo checked/compiled hai but hume uncheked/run time 
+dekhni to vo milegi by Runtimeexception ko extend krne se.
+and vo krte taki exception ko vha hi ahndle na krna pde.
+
+throws me fun bta rha calling func ko ki mai exce throw kr skts
+throw is custom ke lie ki jha bhi exc aai use throw kro
+
+Runtimeexception inbuilt throw ho jati, compile time ko krna pdta throws 

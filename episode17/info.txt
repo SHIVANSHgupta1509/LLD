@@ -1,0 +1,4 @@
+main bhi ek thread hai
+thread dekhne ke liye exception le aao dikh jaegi
+interface is better way as isme inheriten ho paegi, dusre me nhi.
+not poss to run same thread again, make new obj.

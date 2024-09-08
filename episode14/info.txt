@@ -1,0 +1,8 @@
+GC is bg thread and runs kbhi kbhi, isliye java slow.
+manlo tree ka root gya ya ll ka head so gc will find all child and delete.
+
+finalize method is with Object class, yeh obj delete se pehle chlta.
+so sime cleanup code likhte.
+
+developer ko finalize ko call nhi krna chaie as jvm khud call krega use 
+after deletion.
