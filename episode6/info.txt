@@ -91,3 +91,6 @@ ho to dono ek sath override.
 inheritence aap use kro jab mulitple inheritence krna chaho
 abstraction use when you want to do generalistaion.
 interface cant be initiated, but can be implemented.
+
+abstarct data type and concrete data type
+abstract class ke pass this hota hai.

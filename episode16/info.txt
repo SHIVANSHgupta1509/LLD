@@ -1,0 +1,1 @@
+outer class is never sattaic as static kisi ke resp me hoti
