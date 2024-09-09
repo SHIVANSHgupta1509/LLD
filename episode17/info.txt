@@ -1,4 +1,11 @@
 main bhi ek thread hai
 thread dekhne ke liye exception le aao dikh jaegi
 interface is better way as isme inheriten ho paegi, dusre me nhi.
+par isme ek thread banani padti pehle khud.
 not poss to run same thread again, make new obj.
+Thread.currentThread() is very imp usse pata chlega konsi thread chl rhu
+and ab us thread ka koi bhi method call kra do and obviously static hai.
+by default Threads are Thread-0,1,2..
+native func means ki java me nhi likha gya maybe CPP me likha gya
+
+ek thread demon only before it is started.
