@@ -1,0 +1,3 @@
+wait means ki agr koi critical section me hai thread to uska 
+wait kr lo ki vo resolve ho jae.
+lock hmare obj pe hi lgte, hum kr skte class lock bhi vaise.
