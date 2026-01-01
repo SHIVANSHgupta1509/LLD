@@ -1,3 +1,7 @@
+we want ki hmara critical section chote se chota ho so hume syncronized block prefer krna chaie pver method
+syncronisation hum class level pe bhi kr skte not necc at obj level krna using syncronisation method keyword yha pe
+syncronisation block use nhi kr skte.
+hum syncronisation jab simply kr rhe the to ab users ke thread syncronised the but main nhi tha.
 wait means ki agr koi critical section me hai thread to uska 
 wait kr lo ki vo resolve ho jae.
 lock hmare obj pe hi lgte, hum kr skte class lock bhi vaise.
